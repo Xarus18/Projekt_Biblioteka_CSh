@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="de2be8a75a0942a9a0ed5fa5f9605989" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjektModel.Autorzy" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Czytelnicy" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Kategorie" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Ksiazki" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Pracownicy" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Role" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Wydawnictwa" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjektModel.Wypozyczenia" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="ProjektModel.FK_autor" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_czytelnik" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_kategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_ksiazka" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_wydawnictwo" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_pracownik_oddanie" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_pracownik_wypozyczenie" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjektModel.FK_rola" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
